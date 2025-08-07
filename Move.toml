@@ -1,0 +1,15 @@
+[package]
+name = "aptos"
+version = "1.0.0"
+authors = []
+
+[addresses]
+jayalakshmi_addr ="0x4276761727b5fccd8c58185bda1aa47e9d869f49e25378fbad049ef59d42fac2"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
